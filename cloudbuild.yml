@@ -39,5 +39,5 @@ steps:
       - TILLER_NAMESPACE=kube-system
 timeout: 1200s
 substitutions:
-  _CUSTOM_REGION: us-central1
-  _CUSTOM_CLUSTER: cluster-1
+  _CUSTOM_REGION: us-central1-c
+  _CUSTOM_CLUSTER: build-gke

@@ -30,7 +30,7 @@ steps:
       - my-app
       - ./kubernetes
       - --set
-      - image.repository=gcr.io/$PROJECT_ID/my-app:image.tag=$COMMIT_SHA
+      - image.repository=gcr.io/$PROJECT_ID/my-app.image.tag=$COMMIT_SHA
       - -f
       - ./kubernetes/values.yaml
     env:

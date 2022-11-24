@@ -39,5 +39,5 @@ steps:
       - TILLER_NAMESPACE=kube-system
 timeout: 1200s
 substitutions:
-  _CUSTOM_REGION: us-central1-c
-  _CUSTOM_CLUSTER: zap-cluster
+  _CUSTOM_REGION: asia-south1-a
+  _CUSTOM_CLUSTER: jenkins-jen-cluster
